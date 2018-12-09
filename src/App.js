@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import {HashRouter as Router,Switch,Route} from 'react-router-dom';
 import Layout from './components/layout/index.jsx';
 import Home from './components/home/index.jsx';
 import Line from './components/line/index.jsx';
