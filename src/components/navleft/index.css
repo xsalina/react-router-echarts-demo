@@ -1,0 +1,26 @@
+/* .navleft{
+
+} */
+.navleft ul {
+    background:url('./icon.jpg') no-repeat 20px 0;
+}
+.navleft ul li{
+    overflow:hidden;
+    margin-bottom:6px;
+    height:52px;
+    line-height:52px;
+    text-indent:4em;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+
+}
+.navleft ul li a{
+    color:#57697e;
+    font-size: 14px;
+    
+}
+.navleft ul li a.active{
+    color:orangered;
+}
+

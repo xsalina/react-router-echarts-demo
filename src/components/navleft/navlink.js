@@ -1,0 +1,31 @@
+export const navlink = [
+    {
+        exact:true,
+        to:'/',
+        title:'首页'
+    },
+    {
+        to:'/line',
+        title:'折线图'
+    },
+    {
+        to:'/kline',
+        title:'K线图'
+    },
+    {
+        to:'/sunburst',
+        title:'旭日图'
+    },
+    {
+        to:'/relation',
+        title:'关系图'
+    },
+    {
+        to:'/dot',
+        title:'点状图'
+    },
+    {
+        to:'/person',
+        title:'进化图'
+    },
+]
