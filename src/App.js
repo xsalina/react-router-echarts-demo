@@ -1,14 +1,14 @@
 import React from 'react';
 import {HashRouter as Router,Switch,Route} from 'react-router-dom';
 import Layout from './components/layout/index.jsx';
-import Home from './components/home/index.jsx';
-import Line from './components/line/index.jsx';
-import KLine from './components/kline/index.jsx';
-import SunBurst from './components/sunburst/index.jsx';
-import Relation from './components/relation/index.jsx';
-import Dot from './components/dot/index.jsx';
-import Person from './components/person/index.jsx';
-import Notfound from './components/notfound/index.jsx';
+// import Home from './components/home/index.jsx';
+// import Line from './components/line/index.jsx';
+// import KLine from './components/kline/index.jsx';
+// import SunBurst from './components/sunburst/index.jsx';
+// import Relation from './components/relation/index.jsx';
+// import Dot from './components/dot/index.jsx';
+// import Person from './components/person/index.jsx';
+// import Notfound from './components/notfound/index.jsx';
 import echarts from 'echarts';
 import {routers} from './router/index.js';
 class App extends React.Component {
@@ -25,10 +25,11 @@ class App extends React.Component {
                                     if(item.exact){
                                         return(
                                             <Route 
-                                            key={index} 
-                                            exact={item.exact}
-                                            path={item.path}
-                                            component={item.component}
+                                            key={index}
+                                            {...item} 
+                                            // exact={item.exact}
+                                            // path={item.path}
+                                            // component={item.component}
                                             ></Route>
                                         )
                                     }
