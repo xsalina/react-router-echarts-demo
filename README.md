@@ -1,3 +1,4 @@
+路由结合echarts
 
 如图或访问：http://47.101.37.211/router/build/#/
 
